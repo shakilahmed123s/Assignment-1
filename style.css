@@ -48,7 +48,7 @@ p{
 .parson-img{
     height: 570px;
     width: 460px;
-    padding: 30px 20px 0px 200px;
+    padding: 30px 20px 0px 150px;
 
 }
 .titel-description-icon{
@@ -186,7 +186,7 @@ ul li a{
 ul li{
     list-style: none;
 }
-.icons{
+.icons-2{
     display: flex;
     padding-top: 20px;
 }
@@ -226,6 +226,11 @@ ul li{
 }
 .icon{
     padding-right: 15px;
+}
+.btn-sbc:hover{
+    background-color: tomato;
+    color: white;
+    transition: 0.5s;
 }
 
 
