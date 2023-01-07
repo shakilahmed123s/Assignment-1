@@ -43,12 +43,12 @@ p{
     height: 100vh;
     width: 100%;
     display: flex;
-    background-color: rgb(255, 241, 241);
+    background-color: rgb(255, 255, 255);
 }
 .parson-img{
     height: 570px;
     width: 460px;
-    padding: 30px 20px 0px 150px;
+    padding: 30px 20px 0px 170px;
 
 }
 .titel-description-icon{
@@ -79,15 +79,15 @@ p{
 .main-div{
     height: 100vh;
     width: 100%;
-    background-color: rgba(255, 99, 71, 0.089);
+    background-color: rgba(255, 255, 255, 0.089);
     position: relative;
 }
 .img-div{
-    height: 250px;
+    height: 220px;
     width: 941px;
     background-size: cover;
     /* background-image: url('./images/watch.png'); */
-    background-image: linear-gradient(to right, rgba(253, 29, 29, 0.63),rgba(21, 255, 0, 0)),url(./images/watch.png);
+    background-image: linear-gradient(to right, rgba(255, 15, 87, 0.63),rgba(21, 255, 0, 0)),url(./images/watch.png);
     position: absolute;
     right: 0;
     left: 0;
@@ -107,8 +107,8 @@ p{
     justify-content: space-around;
 }
 h5{
-    font-size: 25px;
-    font-weight: 400;
+    font-size: 22px;
+    /* font-weight: 400; */
     font-style: normal;
     color: #737272;
     padding-bottom: 20px;
@@ -117,7 +117,7 @@ h5{
 h2{
     text-align: center;
     padding: 50px;
-    font-size: 35px;
+    font-size: 40px;
 }
 h3{
     font-size: 25px;
