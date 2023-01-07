@@ -1,0 +1,233 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+/* strat header section */
+header{
+    background-image: url('./images/banner/banner1.png');
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+}
+.cover-titel{
+    text-align: right;
+    position: absolute;
+    right: 230px;
+    top: 160px;
+    align-items: center;
+}
+.titel{
+    font-size: 65px;
+    padding-bottom: 24px;
+}
+p{
+    font-size: 16px;
+    color: #242323;
+    padding-bottom: 30px;
+    line-height: 20px;
+}
+.btn{
+    width: 160px;
+    height: 60px;
+    font-size: 21px;
+    color: white;
+    background-color: #f85b00;
+    border: none;
+    border-radius: 7px;
+}
+/* end header section */
+/* start second section */
+.conteinar{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background-color: rgb(255, 241, 241);
+}
+.parson-img{
+    height: 570px;
+    width: 460px;
+    padding: 30px 20px 0px 200px;
+
+}
+.titel-description-icon{
+    width: 506px;
+    height: 400px;
+    padding: 200px 122px 0px 90px;
+}
+.titel-2{
+    width: 390px;
+    height: 95px;
+    font-size: 40px;
+    padding-bottom: 14px;
+    
+}
+.icons{
+    width: 420px;
+    height: 105px;
+    
+}
+.icons p{
+    padding: 0;
+}
+.description{
+    padding-bottom: 10px;
+}
+/* end second section */
+/* start 3d section  */
+.main-div{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(255, 99, 71, 0.089);
+    position: relative;
+}
+.img-div{
+    height: 250px;
+    width: 941px;
+    background-size: cover;
+    /* background-image: url('./images/watch.png'); */
+    background-image: linear-gradient(to right, rgba(253, 29, 29, 0.63),rgba(21, 255, 0, 0)),url(./images/watch.png);
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    border-radius: 10px;
+    
+   
+    
+}
+.main-div{
+    
+}
+.skills{
+    display: flex;
+    justify-content: center;
+    padding: 0px 170px;
+    justify-content: space-around;
+}
+h5{
+    font-size: 25px;
+    font-weight: 400;
+    font-style: normal;
+    color: #737272;
+    padding-bottom: 20px;
+
+}
+h2{
+    text-align: center;
+    padding: 50px;
+    font-size: 35px;
+}
+h3{
+    font-size: 25px;
+    color:  #151414;
+    /* padding: 16px; */
+}
+.Development{
+    text-align: center;
+}
+/* .Development img{ */
+    height: 95px;
+    width: 95px;
+}
+.Javascript{
+    text-align: center;
+}
+.Smoking{
+    text-align: center;
+}
+.ecommerce{
+    text-align: center;
+}
+.image-text{
+    padding: 45px 0px 0px 60px;
+}
+.box-text{
+    font-size: 40px;
+    color: white;
+    padding-bottom: 15px;
+    
+}
+.btn-call{
+    padding: 10px 20px;
+    font-size: 21px;
+    color: tomato;
+    border: none;
+    border-radius: 4px;
+    font-weight: 555;
+}
+/****************************end 3d section**************************/
+/* start fooder */
+.footer{
+    height: 80vh;
+    /* width: 100%; */
+    background-color: #151414;
+    /* display: flex; */
+    justify-content: space-between;
+    position: relative;
+}
+.icons-conten{
+    padding: 100px 0px 0px 200px;
+}
+.Future{
+    font-size: 45px;
+    padding-bottom: 16px;
+    color: white;
+}
+.last-para{
+    color: rgba(255, 255, 255, 0.486);
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    /* padding: 10px; */
+}
+ul li{
+    list-style: none;
+}
+.icons{
+    display: flex;
+    padding-top: 20px;
+}
+.input-btn{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+.sub{
+    position: absolute;
+    left: 900px;
+    top: 100px;
+    color: white;
+    font-size: 30px;
+}
+.email{
+    position: absolute;
+    left: 900px;
+    top: 170px;
+    padding: 20px 40px;
+    border: 1px solid rgba(255, 255, 255, 0.842);
+    border-radius: 7px;
+    background-color: #151414;
+    color: white;
+}
+.btn-sbc{
+    position: absolute;
+    left: 900px;
+    top: 240px;
+    padding: 20px 29px;
+    border-radius: 6px;
+    border: none;
+    background-color: white;
+    color: tomato;
+    font-size: 22px;
+    font-weight: 500;
+}
+.icon{
+    padding-right: 15px;
+}
+
+
+
+
