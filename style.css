@@ -80,6 +80,73 @@ p{
     padding-bottom: 10px;
 }
 /* end second section */
+/* new section */
+
+.section5{
+    height: 70vh;
+    width: 100%;
+    background-color: #ececec4d;
+}
+.service{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 200px;
+}
+.service1{
+    height: 300px;
+    width: 250px ;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px dimgrey;
+    position: relative;
+}
+.service2{
+    height: 300px;
+    width: 250px ;
+    background-color: rgb(199, 212, 75);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px dimgrey;
+    position: relative;
+}
+.service3{
+    height: 300px;
+    width: 250px ;
+    background-color: rgb(255, 0, 55);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px dimgrey;
+}
+.heading{
+    font-size: 35px;
+    text-align: center;
+    position: relative;
+    padding-top: 40px;
+}
+.heading-text{
+    text-align: center;
+    font-size: 16px;
+}
+.btn-read-more{
+    padding: 7px 15px;
+    position: absolute;
+    margin: 10px 20px 0px 75px;
+    background-color: #F85B00;
+    border: none;
+    border-radius: 6px;
+    color: white;
+}
+.list-icon{
+    height: 40px;
+    width: 30px;
+    color: red;
+    border-radius: 5px;
+    position: absolute;
+}
+
+
+/* end new section */
+
 /* start 3d section  */
 .main-div{
     height: 100vh;
